@@ -1,0 +1,15 @@
+<template>
+  <list></list>
+  <top></top>
+</template>
+<script>
+
+</script>
+<script type="application/json">
+  {
+    "usingComponents": {
+      "list": "../components/list",
+      "top": "../components/top"
+    }
+  }
+</script>

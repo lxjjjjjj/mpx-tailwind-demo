@@ -1,0 +1,12 @@
+<template>
+  <view class="bg-gradient-to-r h-200px w-200px">top</view>
+  <view class="bg-pink-300 h-200px w-200px mt-40 h-10">top</view>
+</template>
+<script>
+
+</script>
+<style lang="stylus">
+  @import "../../../tailwind.css";
+</style>
+<script type="application/json">
+</script>
