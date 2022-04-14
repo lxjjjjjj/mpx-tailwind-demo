@@ -1,6 +1,6 @@
 <template>
-  <view class="bg-gradient-to-r h-200px w-200px">list</view>
-  <view class="bg-pink-300 h-200px w-200px mt-40 h-10">list</view>
+  <view class="bg-gradient-to-r h-200 w-200">list</view>
+  <view class="bg-pink-300 h-200 w-200 mt-40 h-10">list</view>
 </template>
 <script>
 
@@ -9,4 +9,9 @@
   @import "../../../tailwind.css";
 </style>
 <script type="application/json">
+  {
+    "component": true,
+    "usingComponents": {
+    }
+  }
 </script>

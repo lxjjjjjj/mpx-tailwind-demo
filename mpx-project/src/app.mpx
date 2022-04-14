@@ -12,24 +12,21 @@
 
 <style>
   /*此处编写全局样式*/
-  @import './tailwind.css'
+  @import '../src/tailwind.css'
 </style>
 
-<script type="application/json">
-  {
-    "pages": [
-      "./pages/index"
+
+
+
+
+<script name="json">
+ module.exports = {
+    pages: [
+      './pages/index'
+    ],
+    packages:[
+      "./subpackage/home/app.mpx?root=home",
+      "./subpackage/sidebar/app.mpx?root=sidebar"
     ]
   }
 </script>
-
-<!--也可以通过以下形式用js输出json，便于书写注释和使用条件编译-->
-
-<!--<script name="json">-->
-<!--  // 可以写注释，通过defs注入的常量做一些判断之类的操作-->
-<!--  module.exports = {-->
-<!--    pages: [-->
-<!--      './pages/index'-->
-<!--    ]-->
-<!--  }-->
-<!--</script>-->
