@@ -1,6 +1,6 @@
 <template>
-  <view class="bg-gradient-to-r h-200 w-200">list</view>
-  <view class="bg-pink-300 h-200 w-200 mt-40 h-10">list</view>
+  <view class="bg-gradient-to-r h-200 w-200 {{isClass ? 'mt-30' : ''}}" >list</view>
+  <view class="bg-pink-300 mt-40 h-10">list</view>
 </template>
 
 <script>

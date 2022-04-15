@@ -1,7 +1,7 @@
 module.exports = {
   content: [],
   purge: [
-    'dist/wx/home/**/**/*.wxml','dist/wx/sidebar/**/**/*.wxml','dist/wx/pages/*.wxml','dist/wx/components/**/*.wxml'
+    'dist/wx/home/**/**/*.wxml'
   ],
   theme: {
     extend: {},
