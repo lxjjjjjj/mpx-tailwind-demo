@@ -1,6 +1,6 @@
 <template>
   <view class="bg-gradient-to-r">top</view>
-  <view class="bg-pink-300 mt-40 h-10">top</view>
+  <view class="mt-40 h-10">top</view>
 </template>
 <script>
 
