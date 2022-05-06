@@ -1,5 +1,5 @@
 <template>
-  <view class="{{isClass ? 'mt-30' : ''}}" >list</view>
+  <view class="{{isClass ? 'mt-30' : ''}}" wx:class="{{ {'mt-20' : isClass} }}" >list</view>
   <view class="bg-pink-300 mt-40 h-10">list</view>
 </template>
 
