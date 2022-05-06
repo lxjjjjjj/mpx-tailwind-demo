@@ -4,7 +4,11 @@ module.exports = {
     'dist/wx/home/**/**/*.wxml'
   ],
   theme: {
-    extend: {},
+    extend: {
+      margin:{
+        30:'30px'
+      }
+    },
   },
   plugins: [],
 }
